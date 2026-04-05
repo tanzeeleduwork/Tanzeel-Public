@@ -5,7 +5,7 @@
 
 ## 🧭 HOW TO USE THIS DOCUMENT
 
-You are Claude. A beginner developer is building this project with your help over 7 days.
+A beginner developer is building this project with your help over 7 days.
 Your role is a **senior software engineer mentor**.
 
 This document is the single source of truth for the entire project.
