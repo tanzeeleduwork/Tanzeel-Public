@@ -5,7 +5,6 @@
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript)
 ![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
 
 ---
@@ -20,7 +19,7 @@ Built with React, TypeScript, and Vite — no backend, no database, no cloud dep
 
 ## ✨ Features
 
-### 🗂 Student Pipeline (Kanban Board)
+### 🗂 Student Pipeline
 - Visual drag-and-drop board across 6 stages: **New Inquiry → Counselled → Applied → Offer Received → COE Issued → Enrolled**
 - Each card shows the student's university, document completion progress, and pending task count
 - Overdue tasks are flagged with a red border directly on the card
@@ -70,6 +69,23 @@ Generates professional, print-ready letters pre-filled from student records:
 4. **Student Retention Follow-up** — after-enrollment engagement communication
 
 Copy to clipboard or download as `.txt` with one click.
+
+---
+
+## 🛠 Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| React 18 | UI component library |
+| TypeScript 5 | Type safety and IDE support |
+| Vite 5 | Build tool and dev server |
+| localStorage API | Client-side data persistence |
+| HTML5 Drag and Drop API | Kanban board interactions |
+| CSS-in-JS (inline styles) | Zero-dependency styling |
+| Clipboard API | Copy-to-clipboard for letters |
+| Blob API | Letter download as `.txt` |
+
+No external UI libraries. No CSS frameworks. No backend. No database.
 
 ---
 
@@ -163,24 +179,6 @@ To reset to demo data, clear `localStorage` in your browser's developer tools:
 ```js
 localStorage.removeItem("educrm_students")
 ```
-
----
-
-## 🛠 Tech Stack
-
-| Technology | Purpose |
-|---|---|
-| React 18 | UI component library |
-| TypeScript 5 | Type safety and IDE support |
-| Vite 5 | Build tool and dev server |
-| localStorage API | Client-side data persistence |
-| HTML5 Drag and Drop API | Kanban board interactions |
-| CSS-in-JS (inline styles) | Zero-dependency styling |
-| Clipboard API | Copy-to-clipboard for letters |
-| Blob API | Letter download as `.txt` |
-
-No external UI libraries. No CSS frameworks. No backend. No database.
-
 ---
 
 ## 📋 CRM Workflow This App Supports
