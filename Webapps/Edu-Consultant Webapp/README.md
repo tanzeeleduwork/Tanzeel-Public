@@ -72,6 +72,26 @@ Copy to clipboard or download as `.txt` with one click.
 
 ---
 
+## 📋 CRM Workflow This App Supports
+
+This system was designed around the real responsibilities of an education consultant:
+
+| Responsibility | Where it's handled |
+|---|---|
+| Counsel students for international admissions | Student Profile → Notes tab |
+| Track application stage from inquiry to enrollment | Pipeline Kanban / Stage badge |
+| Maintain inquiry notes and file notes | Student Profile → Notes tab |
+| Record offer letters, COEs, admissions entries | Documents checklist |
+| Manage follow-up tasks and due dates | Tasks tab + Global Tasks view |
+| Monitor monthly conversion targets | Dashboard KPI cards + progress bar |
+| Generate formal correspondence | Letter Generator module |
+| After-sales retention engagement | Retention Follow-up letter template |
+| Social and marketing content planning | *(roadmap)* |
+
+
+
+---
+
 ## 🛠 Tech Stack
 
 | Technology | Purpose |
@@ -181,23 +201,6 @@ localStorage.removeItem("educrm_students")
 ```
 ---
 
-## 📋 CRM Workflow This App Supports
-
-This system was designed around the real responsibilities of an education consultant:
-
-| Responsibility | Where it's handled |
-|---|---|
-| Counsel students for international admissions | Student Profile → Notes tab |
-| Track application stage from inquiry to enrollment | Pipeline Kanban / Stage badge |
-| Maintain inquiry notes and file notes | Student Profile → Notes tab |
-| Record offer letters, COEs, admissions entries | Documents checklist |
-| Manage follow-up tasks and due dates | Tasks tab + Global Tasks view |
-| Monitor monthly conversion targets | Dashboard KPI cards + progress bar |
-| Generate formal correspondence | Letter Generator module |
-| After-sales retention engagement | Retention Follow-up letter template |
-| Social and marketing content planning | *(roadmap)* |
-
----
 
 ## 🔮 Roadmap
 
