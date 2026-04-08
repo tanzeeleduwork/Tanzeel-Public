@@ -131,28 +131,6 @@ edu-crm/
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js 18 or higher
-- npm 9 or higher
-
-### Installation
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/your-username/edu-crm.git
-cd edu-crm
-
-# 2. Install dependencies
-npm install
-
-# 3. Start the development server
-npm run dev
-```
-
-----
-
 ## 💾 Data Storage
 
 All student data, notes, tasks, and document statuses are persisted in the browser's `localStorage` under the key `educrm_students`. Data survives page refreshes and browser restarts automatically — no account, login, or internet connection required after the initial load.
