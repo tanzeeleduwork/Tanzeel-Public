@@ -151,45 +151,7 @@ npm install
 npm run dev
 ```
 
-### Build for Production
-
-```bash
-npm run build
-```
-
-The output will be in the `dist/` folder, ready to deploy to any static host.
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
-
----
-
-## ☁️ Deployment
-
-This app requires no backend. Deploy the `dist/` folder to any of the following:
-
-**Vercel (recommended — free)**
-```bash
-npm install -g vercel
-vercel --prod
-```
-
-**Netlify**
-```bash
-npm install -g netlify-cli
-netlify deploy --prod --dir=dist
-```
-
-**GitHub Pages**
-```bash
-npm run build
-# Push the dist/ folder to your gh-pages branch
-```
-
----
+----
 
 ## 💾 Data Storage
 
