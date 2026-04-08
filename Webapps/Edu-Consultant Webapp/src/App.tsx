@@ -2749,14 +2749,53 @@ export default function EduCRM() {
     saveStudents(students);
   }, [students]);
 
-  const updateStudent = (id, updates) => {
-    setStudents((prev) =>
-      prev.map((s) => (s.id === id ? { ...s, ...updates } : s))
-    );
-  };
+const updateStudent = (id, updates) => {
+  // Define which stages count as a "Conversion"
+  const successStages = ["Visa Granted", "Enrolled", "COE Issued"];
+  const currentMonth = new Date().toISOString().slice(0, 7); // e.g., "2026-04"
 
-  const addStudent = (student) => {
-    setStudents((prev) => [...prev, student]);
+  // If the stage is being changed, check if it's a success stage
+  if (updates.stage) {
+    if (successStages.includes(updates.stage)) {
+      updates.converted = true;
+      updates.monthConverted = currentMonth;
+    } else {
+      // If moved back to an earlier stage, remove the conversion status
+      updates.converted = false;
+      updates.monthConverted = null;
+    }
+  }
+
+  const updated = students.map((s) => (s.id === id ? { ...s, ...updates } : s));
+  setStudents(updated);
+  saveStudents(updated);
+};
+
+const addStudent = (student) => {
+    // 1. Define which stages count as a "Conversion" success
+    const successStages = ["Visa Granted", "Enrolled", "COE Issued"];
+    const currentMonth = new Date().toISOString().slice(0, 7); // e.g., "2026-04"
+
+    // 2. Check if the student being added is already in a success stage
+    const isConverted = successStages.includes(student.stage);
+
+    // 3. Attach the "Conversion Stickers" so the Dashboard can see them
+    const enrichedStudent = {
+      ...student,
+      converted: isConverted,
+      monthConverted: isConverted ? currentMonth : null,
+      // Ensure these exist so the profile page doesn't crash later
+      notes: student.notes || [],
+      tasks: student.tasks || [],
+    };
+
+    // 4. Save to state and storage
+    setStudents((prev) => {
+      const newList = [...prev, enrichedStudent];
+      saveStudents(newList); // Saves the data so it survives a refresh
+      return newList;
+    });
+
     setShowAddStudent(false);
     setOpenStudentId(student.id);
     setView('students');
