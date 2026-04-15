@@ -11,7 +11,8 @@
 
 ---
 
-**Note:** Add a new student in "Students" module with appropriate info to unlock complete functionality of CRM
+> [!IMPORTANT]
+> **To unlock full CRM functionality:** You must add a new student in the "Students" module first. This populates the pipeline logic and enables the interactive status-locking features.
 
 ## ⚡ Tech Stack & Architecture
 
