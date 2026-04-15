@@ -20,7 +20,15 @@ Here is an overview of the student intake pipeline and activity tracking.
 Detailed views for managing student inquiries, emails, and university applications.
 
 ![Student List View](./Preview%20Images/Students(List%20View).png)
+
 ![Student Overview](./Preview%20Images/Students(Overview%20Tab).png)
+
+![Student Overview](./Preview%20Images/Students(Universities%20Tab).png)
+
+![Student Overview](./Preview%20Images/Students(Email%20Tab).png)
+
+
+
 
 ## 📊 Activity & Tasks
 Systematic tracking of logs and daily tasks to ensure high conversion rates.
