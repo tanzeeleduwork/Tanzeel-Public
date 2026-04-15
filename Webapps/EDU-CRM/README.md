@@ -9,7 +9,7 @@
 
 ## ⚡ Tech Stack & Architecture
 
-This project is built with a focus on zero-latency, local-first data processing, leveraging a modern layout to deliver a fast CRM experience.
+Built with a focus on zero-latency, local-first data processing, leveraging a modern layout to deliver a fast CRM experience.
 
 <div align="center">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
