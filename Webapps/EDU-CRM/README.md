@@ -7,6 +7,29 @@
 
 > **Note:** Add a new student in "Students" module with appropriate info to unlock complete functionality of CRM
 
+## ⚡ Tech Stack & Architecture
+
+This project is built with a focus on zero-latency, local-first data processing, leveraging a modern frontend stack to deliver a complete CRM experience without a traditional backend.
+
+<div align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" alt="Vite" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 APIs" />
+</div>
+
+<br/>
+
+### 🧠 Core Engineering & Skills Demonstrated
+
+* **Frontend Framework:** Fully component-driven architecture using **React** with functional components and complex Hooks (`useState`, `useEffect`, `useRef`) for isolated state management.
+* **Type Safety:** Heavily typed with **TypeScript**, utilizing strict interfaces (`DocState`, `UniApplication`, `Student`) to ensure reliable data flow across the application lifecycle.
+* **Local-First Persistence:** Implements a zero-backend architecture using HTML5 `localStorage` with automated data migration functions to handle legacy state updates.
+* **Schema Validation:** Custom **Zod-compatible** validation engine and Regex sanitization for secure, real-time input handling (e.g., region-specific Passport formatting, phone sanitization).
+* **Document Handling:** Utilizes Browser **Blob & File APIs** (`URL.createObjectURL`) to render PDF and image previews directly in the client without server uploads.
+* **Interactive UI/UX:** Features a custom SVG icon system, responsive inline-styling, and a dynamic **Kanban Drag-and-Drop** pipeline with logic-locked staging (prevents moving students without required verified documents).
+* **Automated Logic:** Includes reactive computational logic for Visa Status dependencies, dynamic Email Template generation, and automated Task tracking.
+
 ## 🖥️ Dashboard & Pipeline
 Here is an overview of the student intake pipeline and activity tracking.
 
