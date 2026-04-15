@@ -1,9 +1,15 @@
 
 # EDU-CRM Project Gallery
 
-**[🚀 Live Demo on Netlify](https://tubular-caramel-dcb454.netlify.app/)**
+<div align="center">
 
-**Note:** View the live demo in horizontal mode on your phone or on PC for best experience
+### ⚠️ **CRITICAL USAGE NOTE** ⚠️
+**Open on PC/Horizontal view on Phone**
+[Click here to open the Live Demo](https://tubular-caramel-dcb454.netlify.app/)
+
+</div>
+
+---
 
 **Note:** Add a new student in "Students" module with appropriate info to unlock complete functionality of CRM
 
