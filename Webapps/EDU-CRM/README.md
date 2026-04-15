@@ -3,9 +3,9 @@
 
 <div align="center">
 
-### ⚠️ **CRITICAL USAGE NOTE** ⚠️
+### ⚠️ **LIVE DEMO** ⚠️
 **Open on PC/Horizontal view on Phone**
-[Click here to open the Live Demo](https://tubular-caramel-dcb454.netlify.app/)
+[View the Demo on Netlify](https://tubular-caramel-dcb454.netlify.app/)
 
 </div>
 
