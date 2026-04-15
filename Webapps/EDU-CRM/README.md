@@ -3,7 +3,7 @@
 
 <div align="center">
 
-### ⚠️ **LIVE DEMO** ⚠️
+### ⚠️ **Critical User Note** ⚠️
 **Open on PC/Horizontal view on Phone**
 [View the Demo on Netlify](https://tubular-caramel-dcb454.netlify.app/)
 
