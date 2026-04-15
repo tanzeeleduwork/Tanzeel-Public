@@ -3,9 +3,9 @@
 
 **[🚀 Live Demo on Netlify](https://tubular-caramel-dcb454.netlify.app/)**
 
-> **Note:** View the live demo in horizontal mode on your phone or on PC for best experience
+**Note:** View the live demo in horizontal mode on your phone or on PC for best experience
 
-> **Note:** Add a new student in "Students" module with appropriate info to unlock complete functionality of CRM
+**Note:** Add a new student in "Students" module with appropriate info to unlock complete functionality of CRM
 
 ## ⚡ Tech Stack & Architecture
 
