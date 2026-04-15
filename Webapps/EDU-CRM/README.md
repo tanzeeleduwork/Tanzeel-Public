@@ -24,9 +24,9 @@ Built with a focus on zero-latency, local-first data processing, leveraging a mo
 
 * **Frontend Framework:** Fully component-driven architecture using **React** with functional components and complex Hooks (`useState`, `useEffect`, `useRef`) for isolated state management.
 * **Type Safety:** Heavily typed with **TypeScript**, utilizing strict interfaces (`DocState`, `UniApplication`, `Student`) to ensure reliable data flow across the application lifecycle.
-* **Local-First Persistence:** Implements a zero-backend architecture using HTML5 `localStorage` with automated data migration functions to handle legacy state updates.
 * **Schema Validation:** Custom **Zod-compatible** validation engine and Regex sanitization for secure, real-time input handling (e.g., region-specific Passport formatting, phone sanitization).
 * **Document Handling:** Utilizes Browser **Blob & File APIs** (`URL.createObjectURL`) to render PDF and image previews directly in the client without server uploads.
+* **Local-First Persistence:** Implements a zero-backend architecture using HTML5 `localStorage` with automated data migration functions to handle legacy state updates.
 * **Interactive UI/UX:** Features a custom SVG icon system, responsive inline-styling, and a dynamic **Kanban Drag-and-Drop** pipeline with logic-locked staging (prevents moving students without required verified documents).
 * **Automated Logic:** Includes reactive computational logic for Visa Status dependencies, dynamic Email Template generation, and automated Task tracking.
 
