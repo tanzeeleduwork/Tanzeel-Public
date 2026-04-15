@@ -1,4 +1,3 @@
-Link to CRM webpage ( Open on PC/Horizontal view on Phone )
 
 # EDU-CRM Project Gallery
 
