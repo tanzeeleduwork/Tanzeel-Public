@@ -70,9 +70,10 @@ Detailed views for managing student inquiries, emails, and university applicatio
 ## 📊 Activity & Tasks
 Systematic tracking of logs and daily tasks to ensure high conversion rates.
 
-![Activity Log](./Preview%20Images/Activity%20Log.png)
-*Figure 7: Activity Log*
-
-
 ![Task Management](./Preview%20Images/Tasks.png)
-*Figure 8: Tasks Module*
+*Figure 7: Tasks Module*
+
+
+![Activity Log](./Preview%20Images/Activity%20Log.png)
+*Figure 8: Activity Log*
+
